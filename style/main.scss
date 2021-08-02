@@ -18,21 +18,39 @@ body {
 }
 
 .left-Content {
-  text-align: center;
+  //text-align: center;
   height: 45vh;
   background: var(--primary-color);
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 
   .left-col {
+    text-align: center;
+    line-height: 1.3em;
+    padding-top: 6em;
+
     p {
       font-family: Larsseit-Medium;
       font-size: 1em;
     }
-    h1{
-        font-size: 2.5em;
-        line-height: 1.3em;
+    h1 {
+      font-size: 3.2em;
+      line-height: 1.3em;
+      font-family: Larsseit-Medium;
+    }
+
+    .primary-btn {
+      margin-top: 1.7em;
+
+      .btn-cta {
+        background: var(--bottom-color);
+        color: var(--font-color);
+        padding: 0.7em;
+        border-radius: 1em;
+        border: 1px solid var(--bottom-color);
+        text-decoration: none;
         font-family: Larsseit-Medium;
+      }
     }
   }
 }
