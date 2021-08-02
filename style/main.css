@@ -65,7 +65,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 3em 0 0 1.125em;
+  margin: 2em 0 0 1.2em;
 }
 
 .left-Content .email-content .bi-envelope {
