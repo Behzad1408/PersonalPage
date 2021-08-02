@@ -1,0 +1,23 @@
+@font-face
+{
+    src: url(/Fonts/Larsseit-Bold.otf);
+    font-family: Larsseit-Bold;
+}
+
+@font-face
+{
+    src: url(/Fonts/Larsseit-Medium.otf);
+    font-family: Larsseit-Medium;
+}
+
+@font-face
+{
+    src: url(/Fonts/Poppins-Medium.ttf);
+    font-family: Poppins-Medium;
+}
+
+@font-face
+{
+    src: url(/Fonts/Poppins-Regular.ttf);
+    font-family: Poppins-Regular;
+}

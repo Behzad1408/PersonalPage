@@ -1,0 +1,38 @@
+@import url(/style/fonts.css);
+
+:root {
+  --primary-color: #1fc58e;
+  --second-color: #f1f6f9;
+  --font-color: #191414;
+  --bottom-color: #fae62d;
+  --hurt-color: #ff3f52;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--second-color);
+}
+
+.left-Content {
+  text-align: center;
+  height: 45vh;
+  background: var(--primary-color);
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+  .left-col {
+    p {
+      font-family: Larsseit-Medium;
+      font-size: 1em;
+    }
+    h1{
+        font-size: 2.5em;
+        line-height: 1.3em;
+        font-family: Larsseit-Medium;
+    }
+  }
+}
