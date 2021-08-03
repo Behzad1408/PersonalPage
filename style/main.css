@@ -1,4 +1,4 @@
-@import url(/style/fonts.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Poppins:wght@600&family=Roboto+Mono:wght@300;500&display=swap");
 :root {
   --primary-color: #1fc58e;
   --second-color: #f1f6f9;
@@ -34,14 +34,14 @@ body {
 }
 
 .left-Content .left-col p {
-  font-family: Larsseit-Medium;
+  font-family: "Roboto Mono";
   font-size: 1em;
 }
 
 .left-Content .left-col h1 {
   font-size: 2.5em;
   line-height: 1.3em;
-  font-family: Larsseit-Medium;
+  font-family: "Montserrat";
 }
 
 .left-Content .left-col .p1 {
@@ -59,7 +59,7 @@ body {
   border-radius: 1em;
   border: 1px solid var(--bottom-color);
   text-decoration: none;
-  font-family: Larsseit-Medium;
+  font-family: "Roboto Mono";
 }
 
 .left-Content .email-content {
@@ -74,12 +74,12 @@ body {
 
 .left-Content .email-content .bi-envelope {
   font-size: 1.5em;
-  padding-right: .3em;
+  padding-right: 0.3em;
 }
 
 .left-Content .email-content p {
-  font-family: Larsseit-Medium;
-  font-size: .9em;
+  font-family: "Roboto Mono";
+  font-size: 0.9em;
 }
 
 /* section Skills  */
@@ -93,7 +93,7 @@ body {
 
 .container .form .title-form {
   margin-top: 0;
-  font-family: Poppins;
+  font-family: "Montserrat";
   font-size: 1.1em;
   font-weight: 500;
 }
@@ -103,13 +103,13 @@ body {
 }
 
 .container .form span:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 1px;
   width: 225px;
   border-top: 1px solid black;
   top: -10px;
-  left: 50px;
+  left: 55px;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
@@ -118,14 +118,14 @@ body {
   padding: 1em;
   display: -ms-grid;
   display: grid;
-  grid-gap: .8em;
+  grid-gap: 0.8em;
   -ms-grid-columns: (minmax(110px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
 }
 
 .container .form .form-list .form-list-item {
-  padding: .3em;
-  border-radius: .3em;
+  padding: 0.3em;
+  border-radius: 0.3em;
   border: 1px solid var(--second-color);
   -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
@@ -133,7 +133,7 @@ body {
 }
 
 .container .form .form-list .list-p {
-  font-family: Poppins;
+  font-family: "Roboto Mono";
   font-size: 0.875em;
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .container .socialMedia-cta a {
-  padding: .5em;
+  padding: 0.5em;
   color: var(--font-color);
 }
 
@@ -153,6 +153,15 @@ body {
 @media (min-width: 110px) {
   .span-1 {
     grid-column: auto / span 2;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .left-Content .email-content {
+    margin: 8em 0 0 1.125em;
+  }
+  .container .form span:before {
+    width: 235px;
   }
 }
 /*# sourceMappingURL=main.css.map */
