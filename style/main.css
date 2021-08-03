@@ -65,7 +65,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2.5em 0 0 1.2em;
+  margin: 2.5em 0 0 1.125em;
 }
 
 .left-Content .email-content .bi-envelope {
@@ -76,5 +76,94 @@ body {
 .left-Content .email-content p {
   font-family: Larsseit-Medium;
   font-size: .9em;
+}
+
+/* .container {
+    //text-align: center;
+    margin: 3em 1.5em 0 1.5em;
+    
+    .title-content{
+        font-family: Poppins;
+        font-size: 1.1em;
+        font-weight: bold;
+
+        #line-break{
+            border-top: 2px solid var(--font-color);
+        }
+    }
+
+    .skills-content{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 1em;
+
+
+
+        div{
+            width: 8rem;
+            height: 3rem;
+            margin-top: 1em;
+            border: 1px solid var(--font-color);
+        }
+    }
+} */
+.container {
+  padding: 2.5em;
+}
+
+.container .form {
+  /* styling form list skill */
+}
+
+.container .form .title-form {
+  margin-top: 0;
+  font-family: Poppins;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.container .form span {
+  position: relative;
+}
+
+.container .form span:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 345px;
+  border-top: 1px solid black;
+  top: -13px;
+  left: 50px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.container .form .form-list {
+  padding: 1em;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+  -ms-grid-columns: (minmax(110px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+}
+
+.container .form .form-list .form-list-item {
+  padding: .3em;
+  border-radius: .3em;
+  border: 1px solid var(--font-color);
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container .form .form-list .list-p {
+  font-family: Poppins;
+  font-size: 0.875em;
+}
+
+@media (min-width: 110px) {
+  .span-1 {
+    grid-column: auto / span 2;
+  }
 }
 /*# sourceMappingURL=main.css.map */
