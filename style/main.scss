@@ -58,7 +58,7 @@ body {
   .email-content{
       display: flex;
       align-items: center;
-      margin: 2.5em 0 0 1.125em;
+      margin: 2.7em 0 0 1.125em;
 
       .bi-envelope{
           font-size: 1.5em;
@@ -155,6 +155,19 @@ body {
       
       
     }
+
+    .socialMedia-cta{
+      margin-top: 40px;
+      margin-bottom: 0;
+      a{
+        padding: .5em;
+        color: var(--font-color);
+
+        .bi{
+          font-size: 24px;
+        }
+      }
+    }
 }
 
 @media (min-width: 110px){
@@ -162,3 +175,4 @@ body {
       grid-column: auto / span 2;
     }
 }
+

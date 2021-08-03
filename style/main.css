@@ -65,7 +65,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2.5em 0 0 1.125em;
+  margin: 2.7em 0 0 1.125em;
 }
 
 .left-Content .email-content .bi-envelope {
@@ -159,6 +159,20 @@ body {
 .container .form .form-list .list-p {
   font-family: Poppins;
   font-size: 0.875em;
+}
+
+.container .socialMedia-cta {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.container .socialMedia-cta a {
+  padding: .5em;
+  color: var(--font-color);
+}
+
+.container .socialMedia-cta a .bi {
+  font-size: 24px;
 }
 
 @media (min-width: 110px) {
