@@ -157,9 +157,11 @@ body {
 }
 
 @media only screen and (max-width: 376px) {
-  .left-Content .email-content {
-    margin: 8em 0 0 1.125em;
-  }
+  /* .left-Content {
+    .email-content {
+      margin: 8em 0 0 1.125em;
+    }
+  } */
   .container .form span:before {
     width: 235px;
   }
