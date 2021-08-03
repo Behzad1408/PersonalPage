@@ -96,12 +96,12 @@ body {
           content: '';
           position: absolute;
           height: 1px;
-          width: 220px;
+          width: 225px;
           border-top: 1px solid black;
-          top: -12px;
+          top: -10px;
           left: 50px;
 
-          box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+          box-shadow: 0 0 3px rgba(0,0,0,0.1);
           //box-shadow: 0 0 1px 0 rgba(0,0,0,1);
         }
       }
@@ -110,7 +110,7 @@ body {
       .form-list{
         padding: 1em;
         display: grid;
-        grid-gap: 1em;
+        grid-gap: .8em;
         grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
 
         .form-list-item{
