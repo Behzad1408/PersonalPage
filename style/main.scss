@@ -35,9 +35,12 @@ body {
       font-size: 1em;
     }
     h1 {
-      font-size: 2.5em;
+      font-size: 2.6em;
       line-height: 1.3em;
       font-family: Larsseit-Medium;
+    }
+    .p1{
+      font-size: 0.9em;
     }
 
     .primary-btn {
@@ -71,36 +74,7 @@ body {
   }
 }
 
-/* .container {
-    //text-align: center;
-    margin: 3em 1.5em 0 1.5em;
-    
-    .title-content{
-        font-family: Poppins;
-        font-size: 1.1em;
-        font-weight: bold;
-
-        #line-break{
-            border-top: 2px solid var(--font-color);
-        }
-    }
-
-    .skills-content{
-        display: grid;
-        grid-auto-flow: column;
-        gap: 1em;
-
-
-
-        div{
-            width: 8rem;
-            height: 3rem;
-            margin-top: 1em;
-            border: 1px solid var(--font-color);
-        }
-    }
-} */
-
+/* section Skills  */
 
 .container {
   padding: 2.5em;
@@ -124,10 +98,10 @@ body {
           height: 1px;
           width: 220px;
           border-top: 1px solid black;
-          top: -13px;
+          top: -12px;
           left: 50px;
 
-          box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+          box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
           //box-shadow: 0 0 1px 0 rgba(0,0,0,1);
         }
       }
